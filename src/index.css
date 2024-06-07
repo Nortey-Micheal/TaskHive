@@ -1,0 +1,46 @@
+:root{
+    --black: #161616;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    color: var(--white);
+}
+
+.container{
+    width: min(90%,1400px);
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--black);
+    height: 10vh;
+
+}
+
+header>div{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div>div:last-of-type{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>div>div:last-of-type>button{
+    padding: 5px 10px;
+    border-radius: 9px;
+    border: 1px var(--white) solid;
+    background-color: var(--white);
+    font-weight: 900;
+}
