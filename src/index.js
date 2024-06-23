@@ -1,8 +1,6 @@
 import "./index.css";
 import AllCategories from "./createTaskNCate.js";
-
-// Tasks().addTask("vuyvu877");
-// console.log(Tasks().getTasks())
+import formatToday from "./dueDate.js";
 
 const Catego = AllCategories();
 Catego.addCategory("Home");
@@ -16,5 +14,5 @@ Catego.getCategory().Home1.addTask("jcgj","Critical","3414ucutt","32fyuvi");
 console.log(Catego.getCategory().Home.getAllTasks())
 console.log(Catego.getCategory().Home1.getAllTasks())
 
+console.log(formatToday)
 
-// Catego.
